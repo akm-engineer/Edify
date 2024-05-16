@@ -1,0 +1,8 @@
+export const ADD_TASK = "ADD_TASK";
+export const TOGGLE_TASK = "TOGGLE_TASK";
+export const MARK_COMPLETED = "MARK_COMPLETED";
+export const MARK_INCOMPLETE = "MARK_INCOMPLETE";
+export const FILTER_TASK = "FILTER_TASK";
+export const MARK_ALL_COMPLETED = "MARK_ALL_COMPLETED";
+export const UPDATE_SEARCH = "UPDATE_SEARCH";
+export const DELETE_TASK = "DELETE_TASK";

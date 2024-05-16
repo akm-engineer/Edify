@@ -1,17 +1,15 @@
-import './App.css'
-import Header from './components/Header'
-import TaskContainer from './components/TaskContainer'
-import store from './redux/store'
-import { Provider } from "react-redux"
-store.subscribe(() => console.log(store.getState()));
+import { Provider } from "react-redux";
+import "./App.css";
+import store from "./redux/store";
+
+import Task from "./components/Task";
 
 function App() {
   return (
     <Provider store={store}>
-      <Header />
-      <TaskContainer />
+      <Task />
     </Provider>
-  )
+  );
 }
 
-export default App
+export default App;
